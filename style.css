@@ -16,10 +16,10 @@ body {
 }
 
 .header .header-link {
-    font-family: fantasy, cursive;
+    font-family: Fantasy, coursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
     .header { text-align: center;
 
@@ -44,16 +44,16 @@ body {
 }
 
 .list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 .list-item, .heading {
-    list-style:none;
+    list-style: none;
 }
 
 .input,.btn{
-    outline:none;
+    outline: none;
 }
 
 .btn {
@@ -135,7 +135,7 @@ body {
     width: 226px;
 }
 
-.list-item >    .input {
+.list-item > .input {
     width: 226px
 }
 
@@ -157,10 +157,10 @@ body {
 
 /* Edit Task */
 .input {
-    display:none
+    display: none
 }
 
 #edit-task {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
