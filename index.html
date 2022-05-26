@@ -7,41 +7,41 @@
   </head>
 
   <body>
-    <section class="aaa">
+    <section class="heading">
       <img src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
-        <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">
+        <a class="heading-link" href="https://goal-life.com/page/method/matrix-eisenhower">
             Want more details?</a>
     </section>
 
-    <section class="centered-main-page-element">  
-      <form action="#" id="top-Section-For-Adding-Element-To-List">
+    <section class="notepad">  
+      <form action="#" id="new-task-form">
         <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task" class="task" type="text">
+        <div class="new-task-wrapper">
+          <input id="new-task" class="new-task" type="text">
           <button>Add</button>
         </div>
       </form>
 
       <h3>Todo</h3>
 
-      <ul id="in-complete-Tasks">
-        <li>
+      <ul id="todo-tasks">
+        <li class="add-new-task">
           <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <label class="task-name">Pay Bills</label>
+          <input type="checkbox" class="task">
+          <button class="btn-edit">Edit</button>
+          <button class="btn-delete">
             <img src="./remove.svg" alt="icon-cross">
           </button>
         </li>
 
-        <li class="editMode">
-          <form action="#" id="change-mode">
+        <li class="edit-task">
+          <form action="#" id="edit-task-form">
             <input type="checkbox">
-            <label class="task">Go Shopping</label>
+            <label class="task-name">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task">
-            <button class="edit">Save</button>
-            <button class="delete">
+            <button class="btn-save">Save</button>
+            <button class="btn-delete">
               <img src="./remove.svg" alt="icon-cross">
             </button>
           </form>
@@ -51,12 +51,12 @@
       <h3>Completed</h3>
 
       <ul id="completed-tasks">
-        <li>
+        <li class="mark-task">
           <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
+          <label class="task-name">See the Doctor</label>
           <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <button class="btn-edit">Edit</button>
+          <button class="btn-delete">
             <img src="./remove.svg" alt="icon-cross">
           </button>
         </li>
