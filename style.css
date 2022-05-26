@@ -136,7 +136,7 @@ body {
 }
 
 .list-item > .input {
-    width: 226px
+    width: 226px;
 }
 
 .btn-delete img {
@@ -151,16 +151,16 @@ body {
 
 /* Completed */
 .task-name {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .input {
-    display: none
+    display: none;
 }
 
 #edit-task {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
