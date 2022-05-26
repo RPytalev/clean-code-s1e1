@@ -15,14 +15,15 @@ body {
     width: 100%;
 }
 
-.header .header-link {
+.header 
+.header-link {
     font-family: Fantasy, coursive;
 }
 
 @media (max-width: 768px) {
 
-    .header { text-align: center;
-
+    .header { 
+        text-align: center;
     }
 
 }
@@ -48,11 +49,13 @@ body {
     padding: 0px;
 }
 
-.list-item, .heading {
+.list-item, 
+.heading {
     list-style: none;
 }
 
-.input,.btn{
+.input,
+.btn {
     outline: none;
 }
 
@@ -105,7 +108,7 @@ body {
     margin: 0 0 20px;
 }
 
-.input#new-task {
+.input #new-task {
     width: 318px;
 }
 
@@ -114,7 +117,6 @@ body {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,8 +153,11 @@ body {
 
 /* Completed */
 .task-name {
-    text-decoration: line-through;
     color: #888;
+}
+
+.completed-task {
+    text-decoration: line-through;
 }
 
 /* Edit Task */
