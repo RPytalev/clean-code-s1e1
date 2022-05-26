@@ -161,10 +161,6 @@ body {
 }
 
 /* Edit Task */
-.input {
-    display: none;
-}
-
 #edit-task {
     display: inline-block;
     width: 224px;
